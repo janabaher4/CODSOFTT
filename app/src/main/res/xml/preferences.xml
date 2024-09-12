@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/alarm_settings">
+
+
+<!--        <Preference-->
+<!--            android:title="@string/pref_title_ringtone"-->
+<!--            android:defaultValue="content://settings/system/notification_sound"-->
+<!--            android:key="@string/key_alarm_ringtone"-->
+<!--            android:ringtoneType="notification"-->
+<!--            android:summary="@string/summary_choose_ringtone" />-->
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summaryOn="@string/summary_vibrate_on"
+            android:summaryOff="@string/summary_vibrate_off"
+            android:title="@string/title_vibrate" />
+
+        <SwitchPreference
+            android:title="@string/title_dark_theme"
+            android:key="@string/key_switch_theme"
+            android:summaryOn="@string/summary_dark_theme_on"
+            android:summaryOff="@string/summary_dark_theme_off"/>
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/snooze_time"
+            android:entryValues="@array/snooze_time"
+            android:key="@string/key_snooze_time"
+            android:title="@string/title_snooze_time"
+            android:summary="@string/summary_snooze_time"
+            app:useSimpleSummaryProvider="true"/>
+
+
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

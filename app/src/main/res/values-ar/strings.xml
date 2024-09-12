@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlarmApp</string>
+
+    <string name="fab_add_new_alarm">أنشاء منبه جديد</string>
+    <string name="alarm_time">15:15</string>
+    <string name="tv_set_new_alarm">أنشاء منبه جديد</string>
+    <string name="tv_alarm_time_text">إختار الوقت</string>
+    <string name="monday">إثـ</string>
+    <string name="thursday">خمـ</string>
+    <string name="saturday">سبـ</string>
+    <string name="wednesday">أر</string>
+    <string name="sunday">أحد</string>
+    <string name="friday">جمـ</string>
+    <string name="tuesday">ثلـ</string>
+    <string name="btn_set_alarm">انشاء منبه</string>
+    <string name="btn_cancel_and_close">إلغاء</string>
+    <string name="enter_alarm_label">ادخل عنوان المنبه</string>
+    <string name="alarm_label">عنوان المنبه</string>
+    <string name="repeat">تكرار</string>
+    <string name="alarm_no_label">بدون عنوان</string>
+    <string name="delete_all_alarm">حذف الكل</string>
+    <string name="tv_no_alarms_text">لاتوجد تنبيهات. لإضافة تنبيه، الرجاء الضغط على الزر أدناه.</string>
+    <string name="dismiss">إلغاء</string>
+    <string name="snooze">غفوة</string>
+    <string name="settings">الإعدادات</string>
+
+
+    <!-- Settings -->
+
+    <!-- Theme Preference -->
+    <string name="title_dark_theme">الوضع الليلي</string>
+    <string name="key_switch_theme">key_switch_theme</string>
+    <string name="summary_dark_theme_on">تعطيل الوضع الليلي</string>
+    <string name="summary_dark_theme_off">تفعيل الوضع الليلي</string>
+
+
+    <!-- Ringtone -->
+
+    <!-- Vibration -->
+    <string name="title_vibrate">اهتزاز</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="summary_vibrate_on">تعطيل الإهتزاز</string>
+    <string name="summary_vibrate_off">تفعيل الإهتزاز</string>
+
+    <!-- Snooze Time -->
+    <string name="title_snooze_time">غفوة</string>
+    <string name="key_snooze_time">key_snooze_time</string>
+    <string name="summary_snooze_time">اضغط لإختيار وقت الغفوة</string>
+
+    <!-- About App-->
+    <string name="pref_header_about">عن التطبيق</string>
+    <string name="summary_about">"لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .</string>
+
+    <string name="summary_support">هل لديك أسئلة؟ سنسر جدا بمساعدتك.</string>
+
+    <string name="title_faq">الأسئلة المتكررة</string>
+    <string name="summary_faq">إقرأ الأسئلة المتكررة</string>
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="title_terms">الشروط والأحكام</string>
+
+    <string name="delete_empty_list">لايوجد تنبيهات لحذفها</string>
+    <string name="alarm_deleted">تم حذف التنبيه</string>
+    <string name="alarm_cancelled">تم إلغاء التنبيه</string>
+    <string name="delete_all">تم حذف كل التنبيهات</string>
+    <string name="alarm_app_channel_name">قناة تطبيق AlarmApp</string>
+    <string name="alarm_app_channel_description">قناة خاصة بإرسال إشعارات التنبيهات</string>
+    <string name="alarm_dismissed">تم إلغاء التنبيه</string>
+    <string name="alarm_scheduled">تم جدولة المنبه لـ %1$s  %2$s</string>
+
+    <string name="ring_image">صورة المنبه أثناء التنبيه</string>
+    <string name="snoozed_for">غفوة لمدة %1$d</string>
+    <string name="set_alarm_fragment_title">إضافة تنبيه جديد</string>
+
+    <string name="remain_time_full">تبقت %1$d ساعة و %2$d دقائق</string>
+    <string name="remain_time_hour_full">تبقت %1$d ساعة و %2$d دقائق</string>
+    <string name="remain_time_minutes">تبقت %1$d دقيقة</string>
+    <string name="remain_time_minute">تبقت دقيقة واحدة</string>
+    <string name="remain_time_less_than_minute">تبقت أقل من دقيقة</string>
+
+
+    <string name="preference_file_key">com.example.alarmapp_preferences</string>
+    <string name="alarm_home">الرئيسية</string>
+    <string name="share">شارك</string>
+    <string name="rate">قيم</string>
+    <string name="communicate">تواصل</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="title_send_feedback">إرسال إقتراحات</string>
+    <string name="title_version">نسخة التطبيق</string>
+    <string name="app_version">1.0</string>
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غداً</string>
+    <string name="no_label">بدون عنوان</string>
+    <string name="alarm_settings">إعدادات المنبه</string>
+
+
+</resources>

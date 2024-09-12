@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#F88909</color>
+    <color name="status_bar">#F88909</color>
+
+    <color name="text_color">#252525</color>
+
+    <color name="grey">#3C403D</color>
+    <color name="dark_orange">#A55903</color>
+    <color name="dark_status_bar">#272525</color>
+
+
+</resources>

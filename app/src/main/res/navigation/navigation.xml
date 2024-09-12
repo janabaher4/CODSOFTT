@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/alarmsFragment">
+
+    <fragment
+        android:id="@+id/alarmsFragment"
+        android:name="com.hblab.alarmapp.ui.fragments.AlarmsFragment"
+        android:label="Alarm Home"
+        tools:layout="@layout/fragment_alarms">
+        <action
+            android:id="@+id/action_alarmsFragment_to_setAlarmFragment"
+            app:destination="@id/setAlarmFragment" />
+        <argument
+            android:name="alarmItem"
+            app:argType="com.hblab.alarmapp.data.model.AlarmItem"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_alarmsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setAlarmFragment"
+        android:name="com.hblab.alarmapp.ui.fragments.SetAlarmFragment"
+        android:label="Add New Alarm"
+        tools:layout="@layout/fragment_set_alarm" >
+        <action
+            android:id="@+id/action_setAlarmFragment_to_alarmsFragment"
+            app:destination="@id/alarmsFragment"
+            app:popUpTo="@id/alarmsFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="alarmItem"
+            app:argType="com.hblab.alarmapp.data.model.AlarmItem"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.hblab.alarmapp.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_alarmsFragment"
+            app:destination="@id/alarmsFragment"
+            app:popUpTo="@id/alarmsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
